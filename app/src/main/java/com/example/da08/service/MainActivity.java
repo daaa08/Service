@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 bindService(intent,connection, Context.BIND_AUTO_CREATE);
                 break;
             case R.id.button4 :
-//                unbindService(intent);
+                unbindService(connection);
                 break;
         }
     }
